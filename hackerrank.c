@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int i;
+    int n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+
+       if(i%3==0)
+       {
+           printf("%d Yes\n",i);
+       }
+       else{
+           printf("%d No\n",i);
+       }
+
+    }
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
+
